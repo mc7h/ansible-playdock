@@ -1,7 +1,6 @@
 # ansible-playdock
 
-A playground to in which to learn and practice Ansible safely.
-
+A place in which to learn and practice Ansible safely.
 
 ## Pre-requisites
 
@@ -10,7 +9,6 @@ A playground to in which to learn and practice Ansible safely.
 * Docker
 * sshpass
 * Optional: Ansible Lint
-
 
 ## Usage
 
@@ -32,8 +30,5 @@ Usage: make <command>
 
 Typically, you will want to run the following commands in this order: `make docker-build`, `make docker-serve`, `make galaxy`, and finally `make run` to execute the playbooks.
 
-
-
 > [!NOTE]  
 > If you hit issues with `make galaxy` try to install the `ansible.utils` collection with the Ansible Galaxy CLI: `ansible-galaxy collection install ansible.utils`.
-
